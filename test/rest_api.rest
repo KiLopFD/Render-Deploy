@@ -1,0 +1,29 @@
+POST http://127.0.0.1:8000/sign-up 
+Content-Type: application/json
+
+{
+    "username": "nguyenvff", 
+    "full_name": "nguyen van a", 
+    "password": "kilop1", 
+    "phone": "13545253"
+}
+
+
+
+### 
+POST http://127.0.0.1:8000/sign-in
+Content-Type: application/json
+
+{
+    "username": "nguyenvff", 
+    "password": "kilop1"
+}
+
+
+### 
+
+GET http://127.0.0.1:8000/users 
+Content-Type: application/json 
+Authorization: Token 2a49a31584a8375478315f6d70f605d11793b32b
+
+
